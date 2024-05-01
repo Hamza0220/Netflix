@@ -5,7 +5,7 @@ import Sdata from "../SeriesData/Sdata";
 function Main() {
   return (
     <>
-    <h1 className="heading">List of top 5 Netflix Series</h1>
+    <h1 className="heading">List of top 5 notflix Series</h1>
       <Card imgsrc = {Sdata[0].imgSrc} category={Sdata[0].category} title={Sdata[0].title} link={Sdata[0].link} />
       <Card imgsrc = {Sdata[1].imgSrc} category={Sdata[1].category} title={Sdata[1].title} link={Sdata[1].link} />
       <Card imgsrc = {Sdata[2].imgSrc} category={Sdata[2].category} title={Sdata[2].title} link={Sdata[2].link} />
